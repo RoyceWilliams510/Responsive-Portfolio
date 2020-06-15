@@ -14,7 +14,13 @@
         width:100%;
     }
     .card{
-        margin-top: 20px;   
+        
+       
+        
+    }
+    .container{
+        padding-top: 20px;
+        padding-bottom:20px;   
     }
     img{
 
@@ -28,6 +34,14 @@
         padding-right: 1.25rem;
         padding-top: 1.25rem;
     }
+    footer{
+        width: 100%;
+        padding: 30px;
+        border-top: #17a2b8;
+        border-top-width: 10px;
+        border-top-style: solid;
+    }
+    
 
 }
 @media screen and (max-width: 768px) {
