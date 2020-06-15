@@ -1,14 +1,41 @@
 @media screen and (max-width: 640px) {
     h2{
         padding:15px;
-        
+        margin: auto;
+        text-align: center;
     }
+    .navbar-nav{
+        text-align: center;
+        width:100%;
+        list-style-type: none
+    }
+    li{
+        float:left;
+        width:100px;
+    }
+    .card{
+        margin-top: 20px;   
+    }
+    img{
 
+        padding:20px;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+
+    }
 
 }
 @media screen and (max-width: 768px) {
-    
+    img{
+        padding:20px;
+        
+
+    }
 }
 @media screen and (max-width: 980px) {
+    img{
+        padding:20px;
+        
 
+    }
 }
