@@ -1,3 +1,6 @@
+body{
+    background-image:  url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
+}
 @media screen and (max-width: 640px) {
     h2{
         padding:15px;
@@ -18,9 +21,11 @@
        
         
     }
+   
     .container{
         padding-top: 20px;
-        padding-bottom:20px;   
+        padding-bottom:20px;
+        
     }
     img{
 
@@ -30,9 +35,17 @@
 
     }
     h3{
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-        padding-top: 1.25rem;
+        padding: 1.25rem;
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom: #17a2b8;
+        
+    }
+    .card-title{
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom: #17a2b8;
+        
     }
     footer{
         width: 100%;
