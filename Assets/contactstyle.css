@@ -2,7 +2,42 @@ body{
     background-image:  url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
 }
 
+#top-row{
+    width: 100%;
+}
+#col-card{
+    max-width:50%;
+    margin-left: 5%;
+}
+#head{
+    max-width: 350px;
+    margin-left: 5%;
+    
 
+}
+h2{
+    padding:15px;
+    text-align: center;
+    height: 100%;
+}
+.container{
+    max-width: 100%;
+}
+.navbar-nav{
+    padding-top: 0px;
+    text-align: right;
+    width:100%;
+    list-style-type: none;
+
+}
+.nav-item{
+    width:100%;
+}
+h3{
+    border-bottom: 3px solid rgba(0,0,0,.1);
+    padding:20px;
+    
+}
 @media screen and (max-width: 980px) {
     #head{
         max-width: 40%;
@@ -136,7 +171,7 @@ body{
         
     }
     .card{
-        width:540px;
+        max-width:540px;
         margin:auto;
     }
 }
