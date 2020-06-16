@@ -1,7 +1,108 @@
 body{
     background-image:  url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
 }
+
+
+@media screen and (max-width: 980px) {
+    #head{
+        max-width: 40%;
+        margin-left: 15px;
+        
+
+    }
+    h2{
+        padding:15px;
+        text-align: center;
+        height: 100%;
+    }
+    
+    h3{
+        border-bottom: 3px solid rgba(0,0,0,.1);
+        padding:20px;
+        
+    }
+    .container{
+        margin:0%;
+        max-width: 2000px;
+        padding:0px;
+    }
+    #top-row{
+        width:100%;
+        margin:0px;
+    }
+    #col-card{
+        padding:20px;
+        max-width:640px;
+        margin-left:15px;
+    }
+    .navbar-nav{
+        padding-top: 0px;
+        text-align: right;
+        width:100%;
+        list-style-type: none;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #head{
+        max-width: 40%;
+        margin-left: 15px;
+
+    }
+    footer{
+        position: absolute;
+        bottom:0px;
+        width: 100%;
+        padding: 30px;
+        border-top: #17a2b8;
+        border-top-width: 10px;
+        border-top-style: solid;
+    }
+    #top-row{
+        max-width: 928px;
+        width:100%;
+        margin:0px;
+
+    }
+    h2{
+        padding:15px;
+        text-align: center;
+        height: 100%;
+    }
+    .navbar-nav{
+        padding-top: 0px;
+        text-align: right;
+        width:100%;
+        list-style-type: none;
+    
+    }
+    #col-card{
+        padding:30px;
+        
+    }
+    h3{
+        border-bottom: 3px solid rgba(0,0,0,.1);
+        padding:20px;
+        
+    }
+    hr{
+    border-width: 3px;
+        
+    }
+}
+
+
 @media screen and (max-width: 640px) {
+    #head{
+        padding-top:15px;
+        padding-bottom: 15px;
+        text-align: center;
+        width:100%;
+        max-width: 100%;
+        margin:0px;
+    }
+
     .container{
         width:100%;
         padding:0px;
@@ -26,24 +127,26 @@ body{
         border-top-width: 10px;
         border-top-style: solid;
     }
-    h2{
-        padding:15px;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    img{
-        padding:20px;
-        width: 540px;
+    
+    .card-title{
+        border-bottom-width: 10px;
+        border-bottom-style: solid;
+        border-bottom: #17a2b8;
+        padding:10px;
         
-
+    }
+    .card{
+        width:540px;
+        margin:auto;
     }
 }
-@media screen and (max-width: 980px) {
-    img{
-        padding:20px;
-        width: 540px;
 
-    }
+footer{
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    padding: 30px;
+    border-top: #17a2b8;
+    border-top-width: 10px;
+    border-top-style: solid;
 }
