@@ -6,15 +6,10 @@ body{
     width: 100%;
     border-bottom: 3px solid rgba(0,0,0,.1);
 }
-#col-card{
-    max-width:50%;
-    margin-left: 5%;
-}
+
 #header{
     max-width: 350px;
     margin-left: 5%;
-    
-
 }
 h2{
     padding:15px;
@@ -48,6 +43,25 @@ footer{
     border-top: #17a2b8;
     border-top-width: 10px;
     border-top-style: solid;
+}
+
+.over-text{
+    width:100%;
+    padding:5px
+}
+a{
+    padding:10px;
+    width:100%;
+}
+.card-image-overlay{
+    padding:0px;
+}
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
 }
 
 @media screen and (max-width: 640px) {
@@ -90,6 +104,7 @@ footer{
     }
     .col-sm{
         width:450px;
+        min-width: 450px;
     }
     .card-title{
         padding:10px;
@@ -98,5 +113,8 @@ footer{
         border-bottom: 3px solid rgba(0,0,0,.1);
         padding:20px;
         
+    }
+    .card-image-overlay{
+        padding:0px;
     }
 }
