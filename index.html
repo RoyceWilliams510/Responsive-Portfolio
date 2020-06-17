@@ -14,8 +14,8 @@
     <title>Porfolio</title>
   </head>
   <body>
-    <div class = "container">
-      <div class = "row" > 
+    <div class = "container fixed-top">
+      <div class = "row bg-light" id= "top-row"> 
         <div class = "col-md-6">
         <!-- Header which is just my name -->
           <header><h2 class = "bg-info text-light text-center">Royce Williams</h2></header>
@@ -25,8 +25,8 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="text-secondary" href="index.html">About  </a>
-                  <a class ="text-secondary" href="portfolio.html">Portfolio  </a>
+                  <a class="text-secondary" href="index.html">About  </a>|
+                  <a class ="text-secondary" href="portfolio.html">Portfolio  </a>|
                   <a class ="text-secondary" href="contact.html">Contact</a>
                </li>
               </ul>
@@ -35,37 +35,32 @@
       </div>
       <br>
 
-  <!-- container for background and info card -->
-    <div class= "row justify-content-center">
-      <div class ="col-lg">
-        <div class="card">
-          <header class ="card-title">
+     <!-- container for background and info card -->
+      <div class= "row">
+        <div class ="col-lg" id ="col-card">
+          <div class="card">
             <h3 class="card-title text-info text-left">About Me</h3>
-          </header>
-          <img src="./Assets/Images/IMG_2448-resized.JPG" class="portrait" alt="photo of me">
-          <div class="card-body">
-            <p class="card-text">Hello my name is Royce Williams, and welcome to my portfolio. A few things you should know about me
+            <div class="card-body">
+              <img src="./Assets/Images/IMG_2448-resized.JPG" class="portrait" alt="photo of me">
+              <p class="card-text">Hello my name is Royce Williams, and welcome to my portfolio. A few things you should know about me
               are that I was born and raised in Berkeley, California. My birthday is November 30th 2000 so as of right now I am 19 years old.
               For schooling I attended public schools in the Berkeley Unified School District, and I graduated from Berkeley High School in the 
               class of 2019. Something that I am proud of in my academic record is the fact that I am a recipiant of the international baccalaureate
               diploma which is a globally recognized diploma for high school students. Currently I am an undergraduate student at the University of
               California Santa Cruz, and am majoring in computer science.
-            </p>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     <br>
 
-    <div class = "row">
-      <div class = "col-12">
-      <!-- footer element -->
-        <footer class = "bg-secondary text-center text-white-50">
-          ©copyright
-        </footer>
-      </div>
-    </div>
   </div>
+      <!-- footer element -->
+  <footer class = "bg-secondary text-center text-white-50 fixed-bottom">
+    ©copyright
+  </footer>
+      
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

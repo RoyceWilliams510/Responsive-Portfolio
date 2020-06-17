@@ -1,23 +1,92 @@
 body{
     background-image:  url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
 }
+#head{
+    max-width: 40%;
+    margin-left: 15px;
 
-
-@media screen and (max-width: 768px) {
-    img{
-        padding:20px;
-        width: 540px;
-        
-
-    }
 }
+footer{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    padding: 30px;
+    border-top: #17a2b8;
+    border-top-width: 10px;
+    border-top-style: solid;
+}
+
+#col-card{
+    width: 727px;
+    max-width: 727px;
+}
+#top-row{
+    width: 100%;
+    border-bottom: 3px solid rgba(0,0,0,.1);
+}
+
+#head{
+    max-width: 350px;
+    margin-left: 5%;
+    
+
+}
+h2{
+    padding:15px;
+    text-align: center;
+    height: 100%;
+}
+.container{
+    max-width: 100%;
+}
+.navbar-nav{
+    padding-top: 0px;
+    text-align: right;
+    width:100%;
+    list-style-type: none;
+
+}
+.nav-item{
+    width:100%;
+}
+h3{
+    border-bottom: 3px solid rgba(0,0,0,.1);
+    padding:20px;
+    
+}
+
+img{
+    padding:20px;
+    max-width: 40%;
+    max-height: 40%;
+}
+
 @media screen and (max-width: 980px) {
     img{
         padding:20px;
-        width: 540px;
+        max-width: 40%;
+        max-height: 40%;
+    
 
     }
+    #col-card{
+        width: 727px;
+        max-width: 727px;
+    }
 }
+@media screen and (max-width: 768px) {
+    img{
+        padding:20px;
+        max-width: 60%;
+        max-height: 60%;
+        float: left;
+    }
+    #col-card{
+        width: 100%;
+    }
+    
+}
+
 @media screen and (max-width: 640px) {
     h2{
         padding:15px;
@@ -40,26 +109,25 @@ body{
     }
     .card{
         margin:auto;
-        width: 550px;
+        width: 85%;
     }
     img{
         padding:20px;
         border-top-left-radius: calc(.25rem - 1px);
         border-top-right-radius: calc(.25rem - 1px);
-        max-width: 540px;
+        max-width: 500px;
+        max-height: 450px;
+        width:70%;
+        height: 70%;
+        margin:auto;
 
     }
-    h3{
-        padding: 1.25rem;
-        border-bottom-width: 10px;
-        border-bottom-style: solid;
-        border-bottom: #17a2b8;
-        
-    }
     .card-title{
-        border-bottom-width: 10px;
-        border-bottom-style: solid;
-        border-bottom: #17a2b8;
+        padding:15px;
+    }
+    h3{
+        border-bottom: 3px solid rgba(0,0,0,.1);
+        padding:20px;
         
     }
     footer{
@@ -72,5 +140,14 @@ body{
     .text-secondary{
         margin-right:5px;
     }
+    #col-card{
+        width:100%;
+    }
+    #top-row{
+        margin:0px;
+    }
 
+}
+.container{
+    margin-bottom: 20;
 }

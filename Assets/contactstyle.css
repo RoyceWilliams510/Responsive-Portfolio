@@ -4,12 +4,13 @@ body{
 
 #top-row{
     width: 100%;
+    border-bottom: 3px solid rgba(0,0,0,.1);
 }
 #col-card{
     max-width:50%;
     margin-left: 5%;
 }
-#head{
+#header{
     max-width: 350px;
     margin-left: 5%;
     
@@ -39,7 +40,7 @@ h3{
     
 }
 @media screen and (max-width: 980px) {
-    #head{
+    #header{
         max-width: 40%;
         margin-left: 15px;
         
@@ -64,6 +65,7 @@ h3{
     #top-row{
         width:100%;
         margin:0px;
+        
     }
     #col-card{
         padding:20px;
@@ -80,7 +82,7 @@ h3{
 }
 
 @media screen and (max-width: 768px) {
-    #head{
+    #header{
         max-width: 40%;
         margin-left: 15px;
 
@@ -121,15 +123,11 @@ h3{
         padding:20px;
         
     }
-    hr{
-    border-width: 3px;
-        
-    }
 }
 
 
 @media screen and (max-width: 640px) {
-    #head{
+    #header{
         padding-top:15px;
         padding-bottom: 15px;
         text-align: center;
@@ -162,17 +160,17 @@ h3{
         border-top-width: 10px;
         border-top-style: solid;
     }
-    
-    .card-title{
-        border-bottom-width: 10px;
-        border-bottom-style: solid;
-        border-bottom: #17a2b8;
-        padding:10px;
-        
-    }
     .card{
         max-width:540px;
         margin:auto;
+    }
+    .card-title{
+        padding:10px;
+    }
+    h3{
+        border-bottom: 3px solid rgba(0,0,0,.1);
+        padding:20px;
+        
     }
 }
 
